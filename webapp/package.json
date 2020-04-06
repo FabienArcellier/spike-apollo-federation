@@ -1,0 +1,17 @@
+{
+  "name": "20200405_1336__appollo-cli-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "apollo client:codegen --target typescript --outputFlat src/generated",
+    "appollo:download-schema": "apollo client:download-schema=",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "apollo": "^2.26.0"
+  }
+}
